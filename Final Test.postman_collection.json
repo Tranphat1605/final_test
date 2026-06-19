@@ -1,0 +1,65 @@
+{
+  "info": {
+    "_postman_id": "323790f2-a213-410a-b034-a7cb10d70ad7",
+    "name": "Final Test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "38949308",
+    "_collection_link": "https://go.postman.co/collection/38949308-323790f2-a213-410a-b034-a7cb10d70ad7?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Danh sách playlist nổi bật",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Danh sách bài hát trong 1 playlist",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Danh sách bài hát gợi ý",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "https://us-central1-project-76a03092-ce94-4b17-94f.cloudfunctions.net/api/dev/v1/playlist-services/playlists/playlist_1781247229682_ee950c88-efaf-43e3-aa4c-efb93656733a/songs/random?limit=4",
+          "protocol": "https",
+          "host": [
+            "us-central1-project-76a03092-ce94-4b17-94f",
+            "cloudfunctions",
+            "net"
+          ],
+          "path": [
+            "api",
+            "dev",
+            "v1",
+            "playlist-services",
+            "playlists",
+            "playlist_1781247229682_ee950c88-efaf-43e3-aa4c-efb93656733a",
+            "songs",
+            "random"
+          ],
+          "query": [
+            {
+              "key": "limit",
+              "value": "4"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
