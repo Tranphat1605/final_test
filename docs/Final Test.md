@@ -45,7 +45,7 @@ Yêu cầu quan trọng về giao diện:
 Base URL:
 
 ```txt
-https://us-central1-project-76a03092-ce94-4b17-94f.cloudfunctions.net/api/dev/v1
+https://smtq9dl4-3113.asse.devtunnels.ms/dev/v1
 ```
 
 ---
@@ -62,7 +62,7 @@ Section này nằm ngay dưới title màn hình.
 
 ```bash
 curl -X 'GET' \
-  'https://us-central1-project-76a03092-ce94-4b17-94f.cloudfunctions.net/api/dev/v1/playlist-services/playlists/latest?limit=3&sort=desc' \
+  'https://smtq9dl4-3113.asse.devtunnels.ms/dev/v1/playlist-services/playlists/latest?limit=3&sort=desc' \
   -H 'accept: application/json'
 ```
 
@@ -110,13 +110,13 @@ Yêu cầu:
 
 Lấy danh sách bài hát trong một playlist và hiển thị dưới dạng danh sách ngang.
 
-Id playlist mặc định sẽ gọi: playlist_1781247229682_ee950c88-efaf-43e3-aa4c-efb93656733a
+Id playlist mặc định sẽ gọi: playlist_1790740622160_a3647f0a-f272-4c0b-b14f-7938861375d9
 
 ### API sử dụng
 
 ```bash
 curl -X 'GET' \
-  'https://us-central1-project-76a03092-ce94-4b17-94f.cloudfunctions.net/api/dev/v1/playlist-services/playlists/playlist_1781247229682_ee950c88-efaf-43e3-aa4c-efb93656733a/songs?limit=5' \
+  'https://smtq9dl4-3113.asse.devtunnels.ms/dev/v1/playlist-services/playlists/playlist_1790740622160_a3647f0a-f272-4c0b-b14f-7938861375d9/songs?limit=5' \
   -H 'accept: application/json'
 ```
 
@@ -169,7 +169,7 @@ Response pagination có dạng:
 "pagination": {
   "limit": 5,
   "hasNext": true,
-  "nextCursor": "song_1781247267439_d0be31cd-b221-44a3-b449-788e730a776d",
+  "nextCursor": "song_1790740622176_21cab521-8199-42b8-9c2b-b0a5647dd211",
   "currentCount": 5
 }
 ```
@@ -186,13 +186,13 @@ Hiển thị danh sách bài hát gợi ý theo dạng grid.
 
 Section này gọi API random songs theo playlist.
 
-Id playlist mặc định sẽ gọi: playlist_1781247229682_ee950c88-efaf-43e3-aa4c-efb93656733a
+Id playlist mặc định sẽ gọi: playlist_1790740622160_a3647f0a-f272-4c0b-b14f-7938861375d9
 
 ### API sử dụng
 
 ```bash
 curl -X 'GET' \
-  'https://us-central1-project-76a03092-ce94-4b17-94f.cloudfunctions.net/api/dev/v1/playlist-services/playlists/playlist_1781247229682_ee950c88-efaf-43e3-aa4c-efb93656733a/songs/random?limit=4' \
+  'https://smtq9dl4-3113.asse.devtunnels.ms/dev/v1/playlist-services/playlists/playlist_1790740622160_a3647f0a-f272-4c0b-b14f-7938861375d9/songs/random?limit=4' \
   -H 'accept: application/json'
 ```
 

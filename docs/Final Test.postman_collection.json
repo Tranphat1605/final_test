@@ -34,20 +34,20 @@
           }
         ],
         "url": {
-          "raw": "https://us-central1-project-76a03092-ce94-4b17-94f.cloudfunctions.net/api/dev/v1/playlist-services/playlists/playlist_1781247229682_ee950c88-efaf-43e3-aa4c-efb93656733a/songs/random?limit=4",
+          "raw": "https://smtq9dl4-3113.asse.devtunnels.ms/dev/v1/playlist-services/playlists/playlist_1790740622160_a3647f0a-f272-4c0b-b14f-7938861375d9/songs/random?limit=4",
           "protocol": "https",
           "host": [
-            "us-central1-project-76a03092-ce94-4b17-94f",
-            "cloudfunctions",
-            "net"
+            "smtq9dl4-3113",
+            "asse",
+            "devtunnels",
+            "ms"
           ],
           "path": [
-            "api",
             "dev",
             "v1",
             "playlist-services",
             "playlists",
-            "playlist_1781247229682_ee950c88-efaf-43e3-aa4c-efb93656733a",
+            "playlist_1790740622160_a3647f0a-f272-4c0b-b14f-7938861375d9",
             "songs",
             "random"
           ],
